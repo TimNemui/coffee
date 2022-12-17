@@ -1,0 +1,87 @@
+
+body{
+  background-color: #8A300A;
+  height: 70vw;
+  background-image: url(../homescreen.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: 0vw -20vw;
+}
+.title{
+  font-family: 'Lobster Two', cursive;
+  font-size: 17vw;
+  letter-spacing: 0.66vw;
+  color: #402D34;
+  -webkit-text-stroke-width: 0.17vw;
+  -webkit-text-stroke-color: #ECC38D;
+}
+.one{
+   position: relative;
+   right: 18vw;
+   top: 5vw;
+}
+.two{
+  position: relative;
+  left: 12.3vw;
+  bottom: 6.8vw;
+}
+
+button{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.enter_btn{
+  height: 3vw;
+  width:8vw;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding-top: 0.5vw;
+  position: relative;
+  font-size: 2vw;
+  background: white;
+  border-radius: 20%;
+  border: solid black thin;
+}
+#seven{
+  top:50vw;
+  left: 48%;
+  height: 2.9vw;
+  padding-top: 0.5vw;
+  width:3vw;
+  position: absolute;
+  text-align: center;
+  font-size: 2vw;
+  background: white;
+  border-radius: 50%;
+  border: solid black 0.1vw;
+}
+
+.enLarge{
+   animation-name: transistion;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   animation-timing-function: linear;
+   animation-delay: 0s;
+
+}
+
+@keyframes transistion {
+  from {
+   transform: translateY(-50%)
+ }
+  to {
+    border-color: #8A300A;
+    color: #8A300A;
+    top:-5vw;
+    left:-20%;
+    border-radius: 0%;
+    padding-top: 0vw;
+    height: 10000px;
+    width: 10000px;
+    background-color: #8A300A;
+  }
+}
